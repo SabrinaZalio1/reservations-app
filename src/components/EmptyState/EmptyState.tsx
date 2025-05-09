@@ -12,7 +12,7 @@ export const EmptyState = ({ title, subtitle }: EmptyStateProps) => {
                 <h3 className='text-lg font-semibold'>{title} </h3>
                 {subtitle && <h5 className='text-sm text-gray-700'>{subtitle}</h5>}
             </div>
-            <img src={logo} alt='empty-state' className='w-30' />
+            <img src={logo} alt='empty-state' className='w-20 lg:w-30' />
         </div>
     )
 }

@@ -10,7 +10,7 @@ export const ReservationList = ({ data }: ReservationListProps) => {
         <div>
             {data.length > 0 &&
                 data.map((reserva, index) => <ReservationCard key={index} reserva={reserva} />
-                )}
+            )}
         </div>
     );
 };

@@ -39,23 +39,23 @@ export const SearchReservations = () => {
                                 title="No hay más resultados de tu búsqueda"
                             />
                         )}
-                            <div className="flex justify-between mt-4">
-                                <button
-                                    onClick={handlePrevPage}
-                                    disabled={page === 1}
-                                    className="px-4 py-2 bg-gray-300 rounded-lg disabled:opacity-50"
-                                >
-                                    Anterior
-                                </button>
-                                <span className="self-center">Página {page}</span>
-                                <button
-                                    onClick={handleNextPage}
-                                    disabled={data.length === 0}
-                                    className="px-4 py-2 bg-sky-500 text-white rounded-lg disabled:opacity-50"
-                                >
-                                    Siguiente
-                                </button>
-                            </div>
+                        <div className="flex justify-between mt-4">
+                            <button
+                                onClick={handlePrevPage}
+                                disabled={page === 1}
+                                className="px-4 py-2 bg-gray-300 rounded-lg disabled:opacity-50"
+                            >
+                                Anterior
+                            </button>
+                            <span className="self-center">Página {page}</span>
+                            <button
+                                onClick={handleNextPage}
+                                disabled={data.length === 0}
+                                className="px-4 py-2 bg-sky-500 text-white rounded-lg disabled:opacity-50"
+                            >
+                                Siguiente
+                            </button>
+                        </div>
                     </>
                 )}
 

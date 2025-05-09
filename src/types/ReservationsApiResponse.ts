@@ -3,7 +3,7 @@ export interface GetReservationsParams {
   reservation?: string;
   page?: number;
   pageSize?: number;
-  resultados:Reservation[]
+  resultados?:Reservation[]
 }
 
 export interface Reservation {
