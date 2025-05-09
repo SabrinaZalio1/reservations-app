@@ -41,6 +41,8 @@ El paginado es manejado por estado local y se reinicia al cambiar la búsqueda.
 - Separaria mejor la lógica del filtrado, delegando más en el backend para lograr mayor optimizacion
 
 - Implementar cache para evitar refetches innecesarios
+  
+- Agregaria SEO para posicionamiento web
 <br/><br/>
 ## 🚀 ¿Cómo levantar el proyecto?
 ```
